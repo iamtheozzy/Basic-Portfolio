@@ -86,8 +86,8 @@ body {
 .connect {
   background-color: #ffffff;
   position: absolute;
-  top: 15%;
-  left: 68%;
+  top: 0px;
+  left: 105%;
   width: 270px;
   padding: 30px;
   border: solid 1px #ddd;
