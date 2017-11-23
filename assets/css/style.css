@@ -3,10 +3,20 @@ body {
   color: #777;
 }
 
+p {
+  line-height: 1.5;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #ffffff;
   height: 80px;
-  position: relative;
+  width: 100%;
+  position: absolute;
   font-family: Georgia, Times, "Times New Roman", serif;
   border-bottom: solid 2px #cccccc;
 }
@@ -29,8 +39,10 @@ body {
 
 .header-nav {
   display: block;
-  float: right;
   padding: 30px;
+  padding-left: 50px;
+  position: relative;
+  float: right;
 
 }
 
@@ -71,11 +83,17 @@ body {
   border: solid 1px #ddd;
 }
 
-.main-content h1 {
+h1, h2 {
   color: #4aaaa5;
   font-size: 25px;
   font-weight: bold;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
+
+h2 {
+  text-align: center;
+}
+
 
 .main-content hr {
   margin-top: 20px;
@@ -97,6 +115,8 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   border-top: 1px solid #777;
+  opacity: .5;
+  width: 95%;
 }
 
 .connect ul {
@@ -110,7 +130,7 @@ body {
 #selfportrait {
   width: 150px;
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .connect-images {
