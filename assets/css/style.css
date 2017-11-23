@@ -1,14 +1,17 @@
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
 }
 
-#header {
+.header {
   background-color: #ffffff;
   height: 80px;
   position: relative;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  border-bottom: solid 2px #cccccc;
 }
 
-#header-title {
+.header-title {
   display: block;
   font-size: 20px;
   font-weight: bold;
@@ -17,15 +20,104 @@ body {
   left: 100px;
   background-color: #4aaaa5;
   padding: 30px;
-  text-decoration: none; 
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-#header-nav {
+.header-nav {
   display: block;
   float: right;
-  margin-top: 0;
+  padding: 30px;
+
+}
+
+.header a  {
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  /*color: #777;*/
+}
+
+.header-nav li {
+  display: inline;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding-left: 20px
+
+}
+
+/*Created a vertical <hr>*/
+/*hr{
+
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100vh;
+    width:          1px;
+}*/
+
+.header-nav a {
+  text-decoration: none;
+  color: #777777;
+}
+
+.main-content {
+  background-color: #ffffff;
+  position: absolute;
+  top: 15%;
+  left: 100px;
+  width: 650px;
+  padding: 30px;
+  border: solid 1px #ddd;
+}
+
+.main-content h1 {
+  color: #4aaaa5;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main-content hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #777;
+}
+
+.connect {
+  background-color: #ffffff;
+  position: absolute;
+  top: 15%;
+  left: 68%;
+  width: 270px;
+  padding: 30px;
+  border: solid 1px #ddd;
+}
+
+.connect hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #777;
+}
+
+.connect ul {
+  text-align: center;
+}
+
+.connect li {
+  display: inline-block;
 }
 
 #selfportrait {
   width: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.connect-images {
+  width: 75px;
+}
+
+.middle-image {
+  padding-left: 10px;
+  padding-right: 10px;
 }
