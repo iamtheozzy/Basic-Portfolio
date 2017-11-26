@@ -44,9 +44,9 @@ p {
 .header-nav {
   display: block;
   padding: 30px;
-  padding-left: 50px;
-  position: relative;
-  float: right;
+  position: absolute;
+  float: left;
+  left: 51%;
 
 }
 
