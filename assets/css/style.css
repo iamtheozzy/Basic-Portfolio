@@ -149,16 +149,28 @@ h2 {
 .footer {
   background-color: #666666;
   width: 100%;
-  height: 75px;
+  height: 60px;
   position: fixed;
   bottom: 0%;
   text-align: center;
   color: white;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+#footerteal {
+  height: 5px;
+  background-color: #4aaaa5;
+  border: 0px;
+  z-index: 2;
+  position: relative;
+  top: 0px;
+  margin: 0;
 }
 
 .footer p {
   margin: 0 auto;
   width: 40%;
   display: block;
-  padding: 25px 0;
+  padding: 15px 0;
 }
