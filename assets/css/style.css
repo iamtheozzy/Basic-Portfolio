@@ -18,33 +18,43 @@ p {
   background-color: #ffffff;
   height: 80px;
   width: 100%;
-  position: absolute;
+  /*position: absolute;*/
   font-family: Georgia, Times, "Times New Roman", serif;
   border-bottom: solid 2px #cccccc;
   clear: both;
   z-index: 1000;
 }
 
+.header-wrap {
+  width: 1060px;
+  margin-left: 100px;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+
 .header-title {
-  display: block;
+  display: inline-block;
   font-size: 20px;
   font-weight: bold;
-  position: absolute;
-  top: 0px;
-  left: 100px;
+  /*position: absolute;*/
+  /*top: 0px;
+  left: 100px;*/
   background-color: #4aaaa5;
   padding: 30px;
   text-decoration: none;
   color: #fff;
   text-decoration: none;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
+  vertical-align: top;
 }
 
 .header-nav {
-  display: block;
+  display: inline-block;
   padding: 30px;
-  position: absolute;
+  /*position: absolute;*/
   float: left;
   left: 51%;
 
@@ -53,7 +63,7 @@ p {
 .header a  {
   text-decoration: none;
   letter-spacing: 0.1em;
-  /*color: #777;*/
+  color: white;
 }
 
 .header-nav li {
