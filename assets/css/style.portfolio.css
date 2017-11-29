@@ -160,7 +160,7 @@ h2 {
   background-color: #666666;
   width: 100%;
   height: 60px;
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0%;
   text-align: center;
   color: white;
@@ -168,19 +168,62 @@ h2 {
   z-index: 1;
 }
 
-#footerteal {
+/*#footerteal {
   height: 5px;
   background-color: #4aaaa5;
   border: 0px;
-  z-index: 2;
+  z-index: 1;
   position: relative;
   top: 0px;
   margin: 0;
-}
+}*/
 
 .footer p {
   margin: 0 auto;
   width: 40%;
   display: block;
   padding: 15px 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+div.gallery1 {
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery1:hover {
+    border: 1px solid #777;
+}
+
+div.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+#content-container {
+  text-align: center;
 }
